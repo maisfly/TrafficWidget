@@ -2,7 +2,6 @@ package com.example.trafficwidget;
 
 import android.app.KeyguardManager;
 import android.content.Context;
-import android.os.Bundle;
 import android.os.PowerManager;
 import android.util.Log;
 
@@ -28,7 +27,7 @@ final class RefreshController {
         return thread;
     });
     private static final AtomicBoolean ASYNC_RUNNING = new AtomicBoolean(false);
-    /** A refresh was requested while one was already running; run once more afterwards. */
+    /** A refresh was requested while one was already running; run once more afterward. */
     private static final AtomicBoolean ASYNC_PENDING = new AtomicBoolean(false);
 
     private RefreshController() {
@@ -77,7 +76,7 @@ final class RefreshController {
     }
 
     /** Widget added or enabled: query only if the screen is already available. */
-    static void onWidgetChanged(Context context, int[] appWidgetIds) {
+    static void onWidgetChanged(Context context) {
         if (isUnlockedAndInteractive(context)) {
             refreshIfAllowed(context, "小部件添加或启用");
         } else {
@@ -86,7 +85,7 @@ final class RefreshController {
     }
 
     /** Resizing only redraws the cached bitmap; it never queries while screen is unavailable. */
-    static void onWidgetOptionsChanged(Context context, int appWidgetId, Bundle newOptions) {
+    static void onWidgetOptionsChanged(Context context, int appWidgetId) {
         if (!isUnlockedAndInteractive(context)) {
             WidgetLogger.log(context, "小部件尺寸变化，跳过重绘：屏幕未点亮或已锁屏");
             return;

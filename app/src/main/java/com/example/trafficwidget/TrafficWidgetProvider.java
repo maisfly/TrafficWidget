@@ -16,7 +16,7 @@ public class TrafficWidgetProvider extends AppWidgetProvider {
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         WidgetUpdateScheduler.schedule(context);
         // 传入 appWidgetIds 让下面的刷新逻辑能判断哪些是 2x1，哪些是 2x2
-        RefreshController.onWidgetChanged(context, appWidgetIds);
+        RefreshController.onWidgetChanged(context);
     }
 
     @Override
@@ -24,13 +24,13 @@ public class TrafficWidgetProvider extends AppWidgetProvider {
                                           int appWidgetId, Bundle newOptions) {
         WidgetUpdateScheduler.schedule(context);
         // 同理，传入发生尺寸变化的那个具体 ID
-        RefreshController.onWidgetOptionsChanged(context, appWidgetId, newOptions);
+        RefreshController.onWidgetOptionsChanged(context, appWidgetId);
     }
 
     @Override
     public void onEnabled(Context context) {
         WidgetUpdateScheduler.schedule(context);
-        RefreshController.onWidgetChanged(context, null); // null 代表刷新所有
+        RefreshController.onWidgetChanged(context); // null 代表刷新所有
     }
 
     @Override
