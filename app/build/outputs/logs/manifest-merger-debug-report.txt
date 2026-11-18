@@ -1,0 +1,137 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:2:1-92:12
+	package
+		INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:5:5-7:47
+	tools:ignore
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:7:9-44
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:6:9-62
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:8:22-78
+application
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:10:5-91:19
+INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:10:5-91:19
+	android:extractNativeLibs
+		INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml
+	android:supportsRtl
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:17:9-51
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:11:9-43
+activity#com.example.trafficwidget.MainActivity
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:19:9-26:20
+	android:exported
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:20:13-41
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:23:25-66
+activity#com.example.trafficwidget.MonthlyUsageActivity
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:28:9-31:58
+	android:exported
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:31:13-55
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:29:13-49
+activity#com.example.trafficwidget.DataUsageProxyActivity
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:33:9-38:70
+	android:excludeFromRecents
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:35:13-46
+	android:noHistory
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:37:13-37
+	android:exported
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:38:13-67
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:34:13-51
+receiver#com.example.trafficwidget.TrafficWidgetProvider
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:41:9-51:20
+	android:label
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:44:13-49
+	android:exported
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:43:13-36
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:42:13-50
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:45:13-47:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:46:17-84
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:46:25-81
+meta-data#android.appwidget.provider
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:48:13-50:63
+	android:resource
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:50:17-60
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:49:17-58
+receiver#com.example.trafficwidget.TrafficWidget2x1Provider
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:54:9-64:20
+	android:label
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:57:13-49
+	android:exported
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:55:13-53
+service#com.example.trafficwidget.WidgetRefreshJobService
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:67:9-70:72
+	android:exported
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:69:13-36
+	android:permission
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:70:13-69
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:68:13-52
+receiver#com.example.trafficwidget.BootReceiver
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:72:9-79:20
+	android:exported
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:73:13-41
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:75:13-78:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:76:17-79
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:76:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:77:17-84
+	android:name
+		ADDED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:77:25-81
+uses-sdk
+INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml
+INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml

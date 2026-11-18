@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_granted">已授予“使用情况访问权限”</string>
+    <string name="permission_missing">尚未授予“使用情况访问权限”</string>
+    <string name="btn_manage_permission">已授权 · 打开权限设置</string>
+    <string name="refreshing">正在刷新流量数据…</string>
+</resources>

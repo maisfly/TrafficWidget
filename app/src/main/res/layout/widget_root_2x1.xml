@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="widget_2x1">
+
+    <ImageView
+        android:id="@+id/widget_bg_2x1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_widget_glass" />
+
+    <!-- 文字容器：往左收一点，整体垂直居中 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="58dp"
+        android:orientation="vertical">
+
+    <!-- 第一行小字：微调颜色和间距 -->
+    <TextView
+        android:id="@+id/tv_today_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="今日流量:"
+        android:textColor="#548292"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.05" /> <!-- 增加字间距，看起来更透气 -->
+
+    <!-- 第二行数字容器：拉近和上一行的距离 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+    <!-- 数字：缩小一点点，防止把 MB 挤出去 -->
+    <TextView
+        android:id="@+id/tv_today_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textColor="#3F6F7E"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:singleLine="true" />
+
+    <!-- 单位：确保底部对齐 -->
+    <TextView
+        android:id="@+id/tv_today_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="2dp"
+        android:text="MB"
+        android:textColor="#5F8FA0"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:includeFontPadding="false"
+        android:singleLine="true" />
+</LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>

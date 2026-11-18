@@ -1,0 +1,4 @@
+#Tue Nov 17 16:12:08 CST 2026
+base.0=E\:\\Study\\Android\\DataManager\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

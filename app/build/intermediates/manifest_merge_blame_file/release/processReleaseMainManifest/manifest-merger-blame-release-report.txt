@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.trafficwidget"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="37" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+11-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:5:5-7:47
+11-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:6:9-62
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:8:5-81
+12-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:8:22-78
+13
+14    <application
+14-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:10:5-91:19
+15        android:name="com.example.trafficwidget.TrafficApplication"
+15-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:11:9-43
+16        android:allowBackup="true"
+16-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:12:9-35
+17        android:extractNativeLibs="false"
+17-->INJECTED
+18        android:icon="@mipmap/ic_launcher"
+18-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:13:9-43
+19        android:label="@string/app_name"
+19-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:14:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:15:9-54
+21        android:supportsRtl="true"
+21-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:16:9-35
+22        android:theme="@style/Theme.TrafficWidget" >
+22-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:17:9-51
+23        <activity
+23-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:19:9-26:20
+24            android:name="com.example.trafficwidget.MainActivity"
+24-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:20:13-41
+25            android:exported="true" >
+25-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:21:13-36
+26            <intent-filter>
+26-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:22:13-25:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:23:17-69
+27-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:23:25-66
+28                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:28:9-31:58
+32            android:name="com.example.trafficwidget.MonthlyUsageActivity"
+32-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:29:13-49
+33            android:exported="false"
+33-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:30:13-37
+34            android:theme="@style/Theme.TrafficWidget" />
+34-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:31:13-55
+35        <activity
+35-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:33:9-38:70
+36            android:name="com.example.trafficwidget.DataUsageProxyActivity"
+36-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:34:13-51
+37            android:excludeFromRecents="true"
+37-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:35:13-46
+38            android:exported="false"
+38-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:36:13-37
+39            android:noHistory="true"
+39-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:37:13-37
+40            android:theme="@style/Theme.TrafficWidget.Transparent" />
+40-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:38:13-67
+41
+42        <!-- ==================== 原有 2x2 小部件 ==================== -->
+43        <receiver
+43-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:41:9-51:20
+44            android:name="com.example.trafficwidget.TrafficWidgetProvider"
+44-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:42:13-50
+45            android:exported="true"
+45-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:43:13-36
+46            android:label="@string/widget_name1" >
+46-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:44:13-49
+47            <intent-filter>
+47-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:45:13-47:29
+48                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+48-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:46:17-84
+48-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:46:25-81
+49            </intent-filter>
+50
+51            <meta-data
+51-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:48:13-50:63
+52                android:name="android.appwidget.provider"
+52-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:49:17-58
+53                android:resource="@xml/traffic_widget_info" />
+53-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:50:17-60
+54        </receiver>
+55
+56        <!-- ==================== 新增的 2x1 小部件 ==================== -->
+57        <receiver
+57-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:54:9-64:20
+58            android:name="com.example.trafficwidget.TrafficWidget2x1Provider"
+58-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:55:13-53
+59            android:exported="true"
+59-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:56:13-36
+60            android:label="@string/widget_name2" > <!-- ⚠️ 注意：这里用了一个新的名字 -->
+60-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:57:13-49
+61            <intent-filter>
+61-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:45:13-47:29
+62                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+62-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:46:17-84
+62-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:46:25-81
+63            </intent-filter>
+64
+65            <meta-data
+65-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:48:13-50:63
+66                android:name="android.appwidget.provider"
+66-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:49:17-58
+67                android:resource="@xml/traffic_widget_2x1_info" /> <!-- 指向新的配置文件 -->
+67-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:50:17-60
+68        </receiver>
+69        <!-- ======================================================== -->
+70
+71        <service
+71-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:67:9-70:72
+72            android:name="com.example.trafficwidget.WidgetRefreshJobService"
+72-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:68:13-52
+73            android:exported="true"
+73-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:69:13-36
+74            android:permission="android.permission.BIND_JOB_SERVICE" />
+74-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:70:13-69
+75
+76        <receiver
+76-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:72:9-79:20
+77            android:name="com.example.trafficwidget.BootReceiver"
+77-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:73:13-41
+78            android:exported="true" >
+78-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:74:13-36
+79            <intent-filter>
+79-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:75:13-78:29
+80                <action android:name="android.intent.action.BOOT_COMPLETED" />
+80-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:76:17-79
+80-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:76:25-76
+81                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+81-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:77:17-84
+81-->E:\Study\Android\DataManager\app\src\main\AndroidManifest.xml:77:25-81
+82            </intent-filter>
+83        </receiver>
+84
+85        <!-- <receiver -->
+86        <!-- android:name=".ScreenStateReceiver" -->
+87        <!-- android:exported="true"> -->
+88        <!-- <intent-filter> -->
+89        <!-- &lt;!&ndash; SCREEN_ON / SCREEN_OFF are not delivered to manifest receivers; the -->
+90        <!-- desktop redraw (onAppWidgetOptionsChanged) and the 15-minute job drive -->
+91        <!-- refreshes instead. &ndash;&gt; -->
+92        <!-- <action android:name="android.intent.action.USER_PRESENT" /> -->
+93        <!-- </intent-filter> -->
+94        <!-- </receiver> -->
+95    </application>
+96
+97</manifest>

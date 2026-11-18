@@ -1,0 +1,8 @@
+com.example.trafficwidget.app-pngs-0 E:\Study\Android\DataManager\app\build\generated\res\pngs\release
+com.example.trafficwidget.app-updated_navigation_xml-1 E:\Study\Android\DataManager\app\build\generated\updated_navigation_xml\release
+com.example.trafficwidget.app-packageReleaseResources-2 E:\Study\Android\DataManager\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.trafficwidget.app-packageReleaseResources-3 E:\Study\Android\DataManager\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.trafficwidget.app-release-4 E:\Study\Android\DataManager\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.trafficwidget.app-main-5 E:\Study\Android\DataManager\app\src\main\res
+com.example.trafficwidget.app-release-6 E:\Study\Android\DataManager\app\src\release\res
+gradleHome-0 C:\Users\Administrator\.gradle

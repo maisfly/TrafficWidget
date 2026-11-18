@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\xml_traffic_widget_2x1_info.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\xml\\traffic_widget_2x1_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\layout_widget_root_2x1.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\layout\\widget_root_2x1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_preview_stage.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_preview_stage.xml"
+    },
+    {
+        "merged": "com.example.trafficwidget.app-debug-3:/layout_activity_main.xml.flat",
+        "source": "com.example.trafficwidget.app-main-5:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_app_icon.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_app_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\layout_widget_root.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\layout\\widget_root.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_preview_2x1.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\preview_2x1.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_widget_glass.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_widget_glass.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_background_alpha.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\background_alpha.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_section.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_button_secondary.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_button_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_tab_selected.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_tab_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\xml_traffic_widget_info.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\xml\\traffic_widget_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_dot.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable-nodpi_widget_preview.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable-nodpi\\widget_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_widget_preview.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\widget_preview.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_month_card.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_month_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\layout_activity_monthly_usage.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\layout\\activity_monthly_usage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_button_primary.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_period_summary.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_period_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-debug-3:\\drawable_bg_tab_bar.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\9.6.0\\com.example.trafficwidget.app-main-5:\\drawable\\bg_tab_bar.xml"
+    }
+]

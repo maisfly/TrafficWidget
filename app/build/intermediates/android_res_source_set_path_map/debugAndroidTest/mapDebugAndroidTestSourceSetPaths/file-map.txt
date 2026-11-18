@@ -1,0 +1,5 @@
+com.example.trafficwidget.test.app-updated_navigation_xml-0 E:\Study\Android\DataManager\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.trafficwidget.test.app-packageDebugAndroidTestResources-1 E:\Study\Android\DataManager\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
+com.example.trafficwidget.test.app-packageDebugAndroidTestResources-2 E:\Study\Android\DataManager\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
+com.example.trafficwidget.test.app-debugAndroidTest-3 E:\Study\Android\DataManager\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+gradleHome-0 C:\Users\Administrator\.gradle
