@@ -62,7 +62,7 @@ final class StatsRepository {
             Calendar today = Calendar.getInstance();
             clearTime(today);
 
-            // Seven boundaries produce six day intervals, ending at "now".
+            // Seven boundaries produce six-day intervals, ending at "now".
             // The first boundary is five days ago, so interval 5 starts today 00:00.
             long[] starts = new long[CHART_DAYS + 1];
             Calendar cursor = (Calendar) today.clone();
@@ -113,7 +113,7 @@ final class StatsRepository {
 
     /**
      * Resolves the user's traffic mode and sums the corresponding transports.
-     * Mobile queries are metered-only; WLAN follows the system's WiFi template.
+     * Mobile queries are metered-only; WLAN follows the system's Wi-Fi template.
      */
     static long queryRange(Context context, NetworkStatsManager manager, long start, long end)
             throws Exception {

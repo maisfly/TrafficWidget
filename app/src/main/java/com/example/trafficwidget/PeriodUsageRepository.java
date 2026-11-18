@@ -208,7 +208,7 @@ final class PeriodUsageRepository {
         return ranges;
     }
 
-    /** Current week (Monday..today) plus the nine full weeks before it, oldest first. */
+    /** Current week (Monday -> today) plus the nine full weeks before it, oldest first. */
     private static List<Range> weekRanges(Context context) {
         Calendar cursor = Calendar.getInstance();
         clearTime(cursor);
